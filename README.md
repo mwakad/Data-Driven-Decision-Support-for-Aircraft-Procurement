@@ -1,11 +1,8 @@
 # Data-Driven-Decision-Support-for-Aircraft-Procurement
 ## Project Summary
-This project  leverages the Pandas package to:
-1) Import a .csv dataset data to a Jupyter Notebook.
-2) Perform Extract Transform Load <strong> ETL </strong> processes by applying lambda functions to perform data transformations (drop entries with unknown values, eliminate duplicates, convert data types, and data aggregation).
-3) Perform descriptive statistics on (float and int) variables to determine the appropriate measure of central tendency to impute for missing values.
-4) Applying the <strong>.groupby() </strong> method to create subgroups of a DataFrame suitable for analyzing and visualizing the relationship between specific aircraft makes and models and their potential correlation to fatality or survival rates in the event of accidents/ incidents.
-The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry.
+The commercial aviation sector is a highly sensitive industry. Although air travel is the safest means of transport, passenger survival rate is the lowest for aircraft accidents. This fact amplifies the correlation between a company's competitiveness and its aircraft accidents/ incidents record. Prevention is better than cure, and the foundational strategy in guaranteeing the longevity of the company's aviation division is to procure safe aircraft. This project proposes three data-supported recommendations on the safest aircraft models the company should procure and operate after entering the commercial aviation industry.
+
+![Daniel Mwaka Phase 1 Project](Images/DEHAVILLAND_DHC-8-311.png)"
 ## Data Understanding
 This project aims to support the company's data-driven decisions to procure relatively low-risk airplane models to operate the fleet in the commercial and private enterprise sectors. It analyzes a dataset compiled by the National Transportation Safety board and retrieved from <html>https://doi.org/10.34740/KAGGLE/DSV/4875576</html>. Recommendations on the safest, practical, and logistically viable aircraft (model and make) for various aviation services the company can venture into to diversify its portfolio are backed up by descriptive statistics and justified by interactive visualizations created using Tableau Public. 
 
