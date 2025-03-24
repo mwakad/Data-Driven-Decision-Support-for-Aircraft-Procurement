@@ -14,18 +14,17 @@ This project aims to support the company's data-driven decisions to procure rela
 <strong> Target: </strong> For this project, the target variables categorize into Dimensions and Measures. The Dimension variables include: `Event.Date`, `Investigation.Type`, `Aircraft.Damage`, `Location`, `Make`, `Model`, `Number.of.Engine`, 'Engine.Type` `Weather.Condition`, and `Purpose.of.flight`. The Measure variables include: `Total.Fatal.Injuries`, `Total.Serious.Injuries`, `Total.Minor.Injuries`, and `Total.Uninjured`. The other columns are deemed inapplicable for this project and dropped prior to data cleaning processes. 
 
 ## Problem Statement
-
-
+Operating airplanes for commercial and private enterprises is a potentially profitable portfolio diversification strategy for the company. However, venturing into such a highly sensitive sector necessitates data-driven decisions, strategic implementation, and formative performance evaluation. Thankfully, digital maturity in leveraging novel data analytics is a key driver for aircraft safety. The insights yielded by this project have a significant impact in supporting the company's data-driven decisions in procuring a safe aircraft fleet to operate in a highly sensitive sector.
 
 
 
 ## Business Objectives
-1. <strong> Goal: </strong> To design a program to 
-
-
-
+1. <strong> Goal: </strong> To design a program for helping the stakeholders of a company aiming to diversify its portfolio by purchasing and operating a fleet of airplanes with a high safety rating for commercial and private enterprises to make data-driven procurement decisions.
 
 2. <strong> Specific Objectives: </strong>
+* To indentify the least safe aircraft the company should refrain from purchasing.
+* To identify the relatively safer single-engine, and multi-engine aircraft the company can consider purchasing.
+* To recommend the safest and most operationally feasible aircraft models the company should procure to operate in specific applications (`Purpose.of.flight`).
 
 
 
