@@ -40,7 +40,6 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * The aggregate sum of fatalities `Total.Fatal.Injuries` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 least safe aircraft in terms of respectively attributed fatalities.
 * Since multi-engine aircraft offer propulsion unit redundancy, the previously cleaned DataFrame (`df_clean`) is sliced to remove all entries for single-engine aircraft. The analytics and visualization operations are performed on the modified DataFrame (`df_modified`) to yield insights on the least safe multi-engine aircraft models.
 
-![Daniel Mwaka Phase 1 Project](Images/Least safe Aircrafts.png)
 
 ## Objective 2
 ### Most Safe Aircraft Models
@@ -48,7 +47,7 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Since multi-engine aircraft avail propulsion unit redundancy, the previously cleaned DataFrame (`df_clean`) is sliced to drop all entries for single-engine aircraft.
 * The analytics and visualization operations are performed on the modified DataFrame (`df_modified`) to yield insights on the safest multi-engine aircraft models.
 
-![Most safe aircraft](Images/Most safe Aircraft.png)
+
 
 ## Objective 3
 ### Recommended Aircraft Model to Purchase 
@@ -61,7 +60,6 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Since multi-engine aircraft avail propulsion unit redundancy, the previously cleaned DataFrame (`df_clean`) is sliced to drop all entries for single-engine aircraft.
 * The analytics and visualization operations are performed on the modified DataFrame (`df_modified`) to yield insights on the safest multi-engine aircraft models concerning particular applications.
 
-![Recommended Aircraft](Images/Recommended Aircrafts.png)
 
 ## Interpretation 
 The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry.
