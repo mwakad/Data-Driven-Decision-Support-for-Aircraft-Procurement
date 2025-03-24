@@ -48,7 +48,7 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Since multi-engine aircraft avail propulsion unit redundancy, the previously cleaned DataFrame (`df_clean`) is sliced to drop all entries for single-engine aircraft.
 * The analytics and visualization operations are performed on the modified DataFrame (`df_modified`) to yield insights on the safest multi-engine aircraft models.
 
-![Daniel Mwaka Phase 1 Project](Images/Most safe Aircraft.png)"
+![Most safe aircraft](Images/Most safe Aircraft.png)
 
 ## Objective 3
 ### Recommended Aircraft Model to Purchase 
@@ -61,7 +61,7 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Since multi-engine aircraft avail propulsion unit redundancy, the previously cleaned DataFrame (`df_clean`) is sliced to drop all entries for single-engine aircraft.
 * The analytics and visualization operations are performed on the modified DataFrame (`df_modified`) to yield insights on the safest multi-engine aircraft models concerning particular applications.
 
-![Daniel Mwaka Phase 1 Project](Images/Recommended Aircrafts.png)"
+![Recommended Aircraft](Images/Recommended Aircrafts.png)
 
 ## Interpretation 
 The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry.
