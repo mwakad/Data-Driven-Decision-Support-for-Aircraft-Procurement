@@ -65,6 +65,8 @@ The analysis yields three recommendations on the aircraft models the company sho
 
 <html>https://public.tableau.com/app/profile/mwaka.daniel/viz/SafestAircrafts/Data-DrivenDecisionSupportforAircraftProcurement?publish=yes</html>
 
+## Conclusion
+
 <strong> The CESSNA-560XL aircraft is recommended for Executive/ Corporate flights: </strong> The baseline and modified model confirm the aircraft is safest for executive and corporate flights.
 
 <strong> The DEHAVILLAND DHC-8-311 aircraft is recommended for Business Flights: </strong> The baseline and modified model conform the aircraft is safest for business flights.
