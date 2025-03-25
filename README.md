@@ -16,7 +16,7 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 1. <strong> Goal: </strong> To design a program for helping the stakeholders of a company aiming to diversify its portfolio by purchasing and operating a fleet of airplanes with a high safety rating for commercial and private enterprises to make data-driven procurement decisions.
 
 2. <strong> Specific Objectives: </strong>
-* To indentify the least safe aircraft the company should refrain from purchasing.
+* To identify the least safe aircraft the company should refrain from purchasing.
 * To identify the relatively safer single-engine, and multi-engine aircraft the company can consider purchasing.
 * To recommend the safest and most operationally feasible aircraft models the company should procure to operate in specific applications (`Purpose.of.flight`).
 
