@@ -39,7 +39,7 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Grouping an aircraft’s `Make` and `Model` optimizes the readability of plotted visualizations.
 * The aggregate sum of fatalities `Total.Fatal.Injuries` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 least safe aircraft in terms of respectively attributed summation of fatalities.
 
-![Riskiest](https://github.com/user-attachments/assets/52eefd59-fe60-40c3-af7d-481ea49326f5)
+![Riskiest](https://github.com/user-attachments/assets/21d56358-c687-46b6-9afe-7223e4060a99)
 
 ## Objective 2
 ### Most Safe Aircraft Models
