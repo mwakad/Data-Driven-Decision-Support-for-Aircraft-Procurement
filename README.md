@@ -59,7 +59,8 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 ![Recommended Aircrafts ](https://github.com/user-attachments/assets/648f3ae1-2aae-45b3-b0d8-165fa7de2f44)
 
 ## Interpretation 
-The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry.
+The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry. The baseline and the modified model are explained in the index.ipynb file.
+
 <strong> The CESSNA-560XL aircraft is recommended for Executive/ Corporate flights: </strong> The baseline and modified model confirm the aircraft is safest for executive and corporate flights.
 
 <strong> The DEHAVILLAND DHC-8-311 aircraft is recommended for Business Flights: </strong> The baseline and modified model conform the aircraft is safest for business flights.
@@ -67,6 +68,6 @@ The analysis yields three recommendations on the aircraft models the company sho
 <strong> The CESSNA-A188B aircraft is recommended for Aerial Applications: </strong> The modified model proposes the MCDONNELL DOUGLAS-DC 10-10 (a three-engine, 250-seater) aircraft for aerial applications. The proposed alternative by the modified model is rejected because aerial applications typically include agricultural activities such as spraying crop fields. Hence, the single-egine CESSNA-A188B is recommended for aerial applications.
 
 ## Next Steps
-* Consult key stakeholders in the aircraft manufacturing sector on the safest engine types per current engineering standards and inquire whether they can be fitted to the proposed airplane models.
-* Performing market research to determine the number of units to purchase for each proposed aircraft.
+* Consultations with key stakeholders in the aircraft manufacturing sector on the safest engine types per current engineering standards and inquire whether they can be fitted to the proposed airplane models.
+* Market research to determine the number of units to purchase for each proposed aircraft.
 * Collaboration with stakeholders in the commercial aviation sector, the company’s shareholders to source capital for facilitating diversification strategy, and the human resource department to recruit adequately skilled personnel to operate the proposed aircraft models.
