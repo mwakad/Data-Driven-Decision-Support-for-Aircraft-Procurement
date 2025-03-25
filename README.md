@@ -1,4 +1,4 @@
-![Most safe Aircrafts](https://github.com/user-attachments/assets/38356f45-5c8f-4f5a-a0df-e7194b0a77e8)# Data-Driven-Decision-Support-for-Aircraft-Procurement
+# Data-Driven-Decision-Support-for-Aircraft-Procurement
 ## Project Summary
 The commercial aviation sector is a highly sensitive industry. Although air travel is the safest means of transport, passenger survival rate is the lowest for aircraft accidents. This fact amplifies the correlation between a company's competitiveness and its aircraft accidents/ incidents record. Prevention is better than cure, and the foundational strategy in guaranteeing the longevity of the company's aviation division is to procure safe aircraft. This project proposes three data-supported recommendations on the safest aircraft models the company should procure and operate after entering the commercial aviation industry.
 
