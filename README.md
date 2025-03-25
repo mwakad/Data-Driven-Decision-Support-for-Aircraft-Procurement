@@ -59,7 +59,7 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 ![Recommended Aircrafts ](https://github.com/user-attachments/assets/648f3ae1-2aae-45b3-b0d8-165fa7de2f44)
 
 ## Interpretation 
-The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry. The baseline and the modified model are explained in the index.ipynb file The image below captures a screenshot for the dashboard and the attached URL links to the interactive Tableau dashboard with embedded functionality to compare the safest aircract `Make` and `Model` for a particular `Purpose.of.flight` based on the `Number.of.Engines`.
+The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry. The baseline and the modified model are explained in the index.ipynb file. The image below captures a screenshot for the dashboard and the attached URL links to the interactive Tableau dashboard with embedded functionality to compare the safest aircract `Make` and `Model` for a particular `Purpose.of.flight` based on the `Number.of.Engines`.
 
 ![Dashboard](https://github.com/user-attachments/assets/43faa01b-8339-475f-9615-7f97be83e868)
 
