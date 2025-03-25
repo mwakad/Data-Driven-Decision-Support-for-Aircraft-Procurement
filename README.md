@@ -38,14 +38,14 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Each unique combination of an aircraft’s Make and Model is treated as a single group to avoid ambiguity since aircraft models made by different manufacturers can share the exact model name or a similar str-num identifier.
 * Grouping an aircraft’s `Make` and `Model` optimizes the readability of plotted visualizations.
 * The aggregate sum of fatalities `Total.Fatal.Injuries` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 least safe aircraft in terms of respectively attributed summation of fatalities.
-  
-![Least safe Aircrafts](https://github.com/user-attachments/assets/84172e58-59a6-4c88-8055-904c5d623e0d)
+
+![Riskiest](https://github.com/user-attachments/assets/52eefd59-fe60-40c3-af7d-481ea49326f5)
 
 ## Objective 2
 ### Most Safe Aircraft Models
 * The aggregate sum of survivors `Total.Uninjured` for each `Make` and `Model` is sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 safest aircraft in terms of cumulative survivors from aircraft accidents and incidents.
 
-![Most safe Aircrafts](https://github.com/user-attachments/assets/58f956b7-6f73-4b58-b472-1b7106bf662a)
+![Safest](https://github.com/user-attachments/assets/342f97bd-d38a-4819-b61f-9563a11189e1)
 
 ## Objective 3
 ### Recommended Aircraft Model to Purchase 
@@ -56,7 +56,7 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * The `.groupby ()` method is used to group each of the filtered `Purpose.of.flight` aviation service, `Make`, and `Model` to determine the safest aircraft model for each application.
 * The `make` and `Model` with the highest aggregate sum of survivors `Total.Uninjured` for each of the selected `Purpose.of.flight` is selected for visualization.
 
-![Recommended Aircrafts ](https://github.com/user-attachments/assets/648f3ae1-2aae-45b3-b0d8-165fa7de2f44)
+![recommended](https://github.com/user-attachments/assets/a2e2237f-e755-4ab4-950d-d8e7f3699ed1)
 
 ## Interpretation 
 The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry. The baseline and the modified model are explained in the index.ipynb file. The image below captures a screenshot for the dashboard and the attached URL links to the interactive Tableau dashboard with embedded functionality to compare the safest aircract `Make` and `Model` for a particular `Purpose.of.flight` based on the `Number.of.Engines`.
