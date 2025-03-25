@@ -39,13 +39,13 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Grouping an aircraft’s `Make` and `Model` optimizes the readability of plotted visualizations.
 * The aggregate sum of fatalities `Total.Fatal.Injuries` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 least safe aircraft in terms of respectively attributed summation of fatalities.
   
-![Least safe Aircrafts](https://github.com/user-attachments/assets/e79505d2-e4bd-40eb-97c6-3c26249c8d9d)
+![Least safe Aircrafts](https://github.com/user-attachments/assets/84172e58-59a6-4c88-8055-904c5d623e0d)
 
 ## Objective 2
 ### Most Safe Aircraft Models
 * The aggregate sum of survivors `Total.Uninjured` for each `Make` and `Model` is sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 safest aircraft in terms of cumulative survivors from aircraft accidents and incidents.
 
-![Most safe Aircrafts](https://github.com/user-attachments/assets/e06e0c3b-8334-4f2f-b3e2-0b0b24c6dc6a)
+![Most safe Aircrafts](https://github.com/user-attachments/assets/58f956b7-6f73-4b58-b472-1b7106bf662a)
 
 ## Objective 3
 ### Recommended Aircraft Model to Purchase 
@@ -53,17 +53,17 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Per the company’s target market, its new aviation division will majorly offer services spanning Executive/corporate flights, Business flights, and Aerial applications.
 * Owing to unique operational complexities and logistical considerations, the safest aircraft models are not universally applicable.
 * Thus, the dataset is filtered for the three relevant `Purpose.of.flight` aviation services the company will typically offer its clients.
-* The `.groupby ()` method is leveraged to group each of the filtered `Purpose.of.flight` aviation service, `Make`, and `Model` to determine the safest aircraft model for each application.
-* The aggregate sum of survivors `Total.Uninjured` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 safest aircraft in terms of cumulative survivors.
-* Since multi-engine aircraft avail propulsion unit redundancy, the previously cleaned DataFrame (`df_clean`) is sliced to drop all entries for single-engine aircraft.
-* The analytics and visualization operations are performed on the modified DataFrame (`df_modified`) to yield insights on the safest multi-engine aircraft models concerning particular applications.
+* The `.groupby ()` method is used to group each of the filtered `Purpose.of.flight` aviation service, `Make`, and `Model` to determine the safest aircraft model for each application.
+* The `make` and `Model` with the highest aggregate sum of survivors `Total.Uninjured` for each of the selected `Purpose.of.flight` is selected for visualization.
 
-![Recommended Aircrafts ](https://github.com/user-attachments/assets/d73772e8-7147-4817-a764-29144157cdac)
+![Recommended Aircrafts ](https://github.com/user-attachments/assets/648f3ae1-2aae-45b3-b0d8-165fa7de2f44)
 
 ## Interpretation 
 The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry.
 <strong> The CESSNA-560XL aircraft is recommended for Executive/ Corporate flights: </strong> The baseline and modified model confirm the aircraft is safest for executive and corporate flights.
+
 <strong> The DEHAVILLAND DHC-8-311 aircraft is recommended for Business Flights: </strong> The baseline and modified model conform the aircraft is safest for business flights.
+
 <strong> The CESSNA-A188B aircraft is recommended for Aerial Applications: </strong> The modified model proposes the MCDONNELL DOUGLAS-DC 10-10 (a three-engine, 250-seater) aircraft for aerial applications. The proposed alternative by the modified model is rejected because aerial applications typically include agricultural activities such as spraying crop fields. Hence, the single-egine CESSNA-A188B is recommended for aerial applications.
 
 ## Next Steps
