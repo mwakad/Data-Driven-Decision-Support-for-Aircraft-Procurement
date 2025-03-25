@@ -1,4 +1,4 @@
-# Data-Driven-Decision-Support-for-Aircraft-Procurement
+![Most safe Aircrafts](https://github.com/user-attachments/assets/38356f45-5c8f-4f5a-a0df-e7194b0a77e8)# Data-Driven-Decision-Support-for-Aircraft-Procurement
 ## Project Summary
 The commercial aviation sector is a highly sensitive industry. Although air travel is the safest means of transport, passenger survival rate is the lowest for aircraft accidents. This fact amplifies the correlation between a company's competitiveness and its aircraft accidents/ incidents record. Prevention is better than cure, and the foundational strategy in guaranteeing the longevity of the company's aviation division is to procure safe aircraft. This project proposes three data-supported recommendations on the safest aircraft models the company should procure and operate after entering the commercial aviation industry.
 
@@ -37,18 +37,15 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * The .`groupby()` method is used to group the cleaned DataFrame (`df_clean`) by `Make` (the manufacturer) and `Model` (a specific aircraft model).
 * Each unique combination of an aircraft’s Make and Model is treated as a single group to avoid ambiguity since aircraft models made by different manufacturers can share the exact model name or a similar str-num identifier.
 * Grouping an aircraft’s `Make` and `Model` optimizes the readability of plotted visualizations.
-* The aggregate sum of fatalities `Total.Fatal.Injuries` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 least safe aircraft in terms of respectively attributed fatalities.
-* Since multi-engine aircraft offer propulsion unit redundancy, the previously cleaned DataFrame (`df_clean`) is sliced to remove all entries for single-engine aircraft. The analytics and visualization operations are performed on the modified DataFrame (`df_modified`) to yield insights on the least safe multi-engine aircraft models.
+* The aggregate sum of fatalities `Total.Fatal.Injuries` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 least safe aircraft in terms of respectively attributed summation of fatalities.
   
 ![Least safe Aircrafts](https://github.com/user-attachments/assets/e79505d2-e4bd-40eb-97c6-3c26249c8d9d)
 
 ## Objective 2
 ### Most Safe Aircraft Models
 * The aggregate sum of survivors `Total.Uninjured` for each `Make` and `Model` is sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 safest aircraft in terms of cumulative survivors from aircraft accidents and incidents.
-* Since multi-engine aircraft avail propulsion unit redundancy, the previously cleaned DataFrame (`df_clean`) is sliced to drop all entries for single-engine aircraft.
-* The analytics and visualization operations are performed on the modified DataFrame (`df_modified`) to yield insights on the safest multi-engine aircraft models.
 
-![Most safe Aircrafts](https://github.com/user-attachments/assets/ea3868cb-76df-477d-aa3d-f8db3ba90587)
+![Most safe Aircrafts](https://github.com/user-attachments/assets/e06e0c3b-8334-4f2f-b3e2-0b0b24c6dc6a)
 
 ## Objective 3
 ### Recommended Aircraft Model to Purchase 
