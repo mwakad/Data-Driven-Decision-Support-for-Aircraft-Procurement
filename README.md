@@ -39,13 +39,12 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Grouping an aircraft’s `Make` and `Model` optimizes the readability of plotted visualizations.
 * The aggregate sum of fatalities `Total.Fatal.Injuries` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 least safe aircraft in terms of respectively attributed summation of fatalities.
 
-![Riskiest](https://github.com/user-attachments/assets/21d56358-c687-46b6-9afe-7223e4060a99)
+
 
 ## Objective 2
 ### Most Safe Aircraft Models
 * The aggregate sum of survivors `Total.Uninjured` for each `Make` and `Model` is sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 safest aircraft in terms of cumulative survivors from aircraft accidents and incidents.
 
-![Safest](https://github.com/user-attachments/assets/342f97bd-d38a-4819-b61f-9563a11189e1)
 
 ## Objective 3
 ### Recommended Aircraft Model to Purchase 
@@ -56,7 +55,7 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * The `.groupby ()` method is used to group each of the filtered `Purpose.of.flight` aviation service, `Make`, and `Model` to determine the safest aircraft model for each application.
 * The `make` and `Model` with the highest aggregate sum of survivors `Total.Uninjured` for each of the selected `Purpose.of.flight` is selected for visualization.
 
-![recommended](https://github.com/user-attachments/assets/a2e2237f-e755-4ab4-950d-d8e7f3699ed1)
+
 
 ## Interpretation 
 The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry. The baseline and the modified model are explained in the index.ipynb file. The image below captures a screenshot for the dashboard and the attached URL links to the interactive Tableau dashboard with embedded functionality to compare the safest aircract `Make` and `Model` for a particular `Purpose.of.flight` based on the `Number.of.Engines`.
