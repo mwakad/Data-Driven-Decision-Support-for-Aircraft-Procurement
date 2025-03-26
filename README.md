@@ -77,3 +77,12 @@ The analysis yields three recommendations on the aircraft models the company sho
 * Consultations with key stakeholders in the aircraft manufacturing sector on the safest engine types per current engineering standards and inquire whether they can be fitted to the proposed airplane models.
 * Market research to determine the number of units to purchase for each proposed aircraft.
 * Collaboration with stakeholders in the commercial aviation sector, the company’s shareholders to source capital for facilitating diversification strategy, and the human resource department to recruit adequately skilled personnel to operate the proposed aircraft models.
+
+## Repository Structure
+├── Data
+├── Images
+├── Index.ipynb
+├── Notebook.pdf
+├── Presentation.pdf
+└── README.md
+
