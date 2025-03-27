@@ -2193,7 +2193,6 @@ Accident,Key Largo,FL,United States,Substantial,ICON AIRCRAFT INC,A5,1.0,Recipro
 Accident,Greensburg,IN,United States,Substantial,PIPER,PA-22-135,1.0,Reciprocating,Business,0.0,1.0,0.0,2.0,VMC
 Accident,LEWISTOWN,MT,United States,Substantial,WEATHERLY AVIATION CO INC,620B,1.0,Reciprocating,Aerial Application,0.0,0.0,0.0,1.0,VMC
 Accident,Palmer,KS,United States,Substantial,GRUMMAN SCHWEIZER,G-164,1.0,Reciprocating,Aerial Application,0.0,0.0,0.0,1.0,VMC
-Accident,Park City,UT,United States,Substantial,BALONY KUBICEK SPOL SRO,BB70Z,0.0,None,Business,0.0,0.0,0.0,9.0,VMC
 Accident,Hollis,OK,United States,Substantial,AIR TRACTOR INC,AT 602,1.0,Turbo Prop,Aerial Application,1.0,0.0,0.0,0.0,VMC
 Accident,Tahoka,TX,United States,Destroyed,AIR TRACTOR INC,AT 502,1.0,Turbo Prop,Aerial Application,0.0,1.0,0.0,0.0,VMC
 Accident,Gypsum,KS,United States,Substantial,THRUSH AIRCRAFT INC,S2R-H80,1.0,Turbo Prop,Aerial Application,0.0,0.0,0.0,1.0,VMC
@@ -2275,7 +2274,6 @@ Accident,Pixley,CA,United States,Substantial,BELL,47G,1.0,Reciprocating,Aerial A
 Accident,Temple,TX,United States,Destroyed,BEREZNAK,Lancair Legacy,1.0,Reciprocating,Business,0.0,1.0,0.0,1.0,VMC
 Accident,Mount Pleasant,MI,United States,Substantial,LEARJET INC,31,2.0,Turbo Jet,Business,0.0,0.0,0.0,9.0,VMC
 Accident,Stockton,CA,United States,Substantial,SCHWEIZER AIRCRAFT CORP,G 164B,1.0,Turbo Prop,Aerial Application,1.0,0.0,0.0,0.0,VMC
-Accident,Cave Creek,AZ,United States,Destroyed,ULTRAMAGIC SA,N 300,0.0,None,Business,0.0,0.0,0.0,13.0,VMC
 Accident,Weipee,ID,United States,Substantial,AYRES CORPORATION,S2R,1.0,Reciprocating,Aerial Application,0.0,0.0,0.0,1.0,VMC
 Accident,Bishop,CA,United States,Substantial,GULFSTREAM AM CORP COMM DIV,695A,2.0,Turbo Prop,Business,0.0,0.0,0.0,2.0,VMC
 Accident,Garwood,TX,United States,Substantial,GRUMMAN,G 164A,1.0,Reciprocating,Aerial Application,0.0,0.0,0.0,1.0,VMC
@@ -2416,7 +2414,6 @@ Accident,Susanville,CA,United States,Substantial,HILLER,UH 12E,1.0,Turbo Shaft,A
 Accident,Fabens,TX,United States,Substantial,WEATHERLY,620,1.0,Reciprocating,Aerial Application,0.0,0.0,0.0,1.0,VMC
 Accident,King City,CA,United States,Substantial,BELL,47G,1.0,Reciprocating,Aerial Application,0.0,1.0,0.0,0.0,VMC
 Accident,Shellman,GA,United States,Destroyed,AYRES,S2R,1.0,Turbo Prop,Aerial Application,0.0,0.0,0.0,1.0,VMC
-Accident,Albuquerque,NM,United States,Substantial,ULTRAMAGIC,N 250,1.0,None,Business,0.0,0.0,0.0,13.0,VMC
 Accident,Lamesa,TX,United States,Minor,AIR TRACTOR,AT 502,1.0,Turbo Prop,Aerial Application,0.0,0.0,0.0,1.0,VMC
 Accident,Hebbronville,TX,United States,Destroyed,ROBINSON,R22 Beta,1.0,Reciprocating,Business,2.0,0.0,1.0,1.0,VMC
 Accident,New Braunfels,TX,United States,Minor,BEECH,200,2.0,Turbo Prop,Business,0.0,0.0,1.0,1.0,VMC
