@@ -80,15 +80,15 @@ The analysis yields three recommendations on the aircraft models the company sho
 * Collaboration with stakeholders in the commercial aviation sector, the company’s shareholders to source capital for facilitating diversification strategy, and the human resource department to recruit adequately skilled personnel to operate the proposed aircraft models.
 
 ## Repository Structure
-├── Data
+├── data
 
-├── Images
+├── images
 
-├── Index.ipynb
+├── README.md
 
-├── Notebook.pdf
+├── index.ipynb
 
-├── Presentation.pdf
+├── notebook.pdf
 
-└── README.md
+└── presentation.pdf
 
