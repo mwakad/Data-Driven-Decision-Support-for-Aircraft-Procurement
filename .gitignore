@@ -1,7 +1,31 @@
-# Used data
-Data/AviationData.csv
-Data/USState.csv
-Data/bestest_aviation_data.csv
+# ignore tracking changes to files in the data folder
+Data/aviation-data.csv
+Data/cleaned-aviation-data.csv
+
+# ignore tracking changes to the files in the images folder
+images/dashboard.png
+images/dehavilland-dhc-hc-311.png
+images/least-safe-aircraft.png
+images/most-safe-aircraft.png
+images/least-safe-multi-engine-aircraft.png
+images/most-safe-multi-engine-aircraft.png
+images/recommended-aircraft.png
+images/recommended-multi-engine-aircraft.png
+images/time-series-plot.png
+
+# Conda environment files 
+conda-envs/
+environment.yml
+environment.yaml
+*.conda
+# Pip environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak
+venv.bak/
 
 # Python / Jupyter
 __pycache__/
@@ -13,6 +37,9 @@ tmp*
 tmp/
 *.log
 
+#VS Code
+.vs.code/
+
 # Tableau
 tableau_workbooks/
 *.twb
@@ -20,13 +47,26 @@ tableau_workbooks/
 *.tds
 *.tdsx
 
-# MacOS and Windows generated files
-.DS_Store
+# Windows generated files
 Thumbs.db
-# Linux specific generated files
-*~ # Backup files from some editors
+Desktop.in1
+
+# MacOS generated files
+.DS_Store
+._*
+
+# Linux generated files
+*~ # Backup files from text editors
 .#* # Emacs lock files
 *.swp # Vim swap files
 *.swo # Vim swap files
 .fuse_hidden*
 *.un~
+
+# References
+# 1. Ali, S. (2024). How to Use.gitignore: A Step-by-Step Guide. https://hostman.com/tutorials/how-to-use-gitignore/  
+# 2. Dogucu, M., & Çetinkaya-Rundel, M. (2022). Tools and Recommendations for Reproducible Teaching. Journal of Statistics and Data Science Education, 30(3), 251–260. https://doi.org/10.1080/26939169.2022.2138645
+# 3. Eland, M (2023). How to use .gitignore Files. https://newdevsguide.com/2023/03/08/how-to-use-gitignore-files/  
+# 4. Git-scm.com (2023). gitignore. https://git-scm.com/docs/gitignore
+# 5. Ojetola, D (2022). Stack overflow. https://stackoverflow.com/questions/52944740/how-do-i-use-gitignore-in-visual-studio-code
+# 6. Thorrson. (2025). A collection of .gitignore templates. https://github.com/github/gitignore
