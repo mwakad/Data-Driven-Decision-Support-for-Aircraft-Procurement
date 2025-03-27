@@ -1,6 +1,6 @@
 # ignore tracking changes to files in the data folder
-Data/aviation-data.csv
-Data/cleaned-aviation-data.csv
+data/aviation-data.csv
+data/cleaned-aviation-data.csv
 
 # ignore tracking changes to the files in the images folder
 images/dashboard.png
