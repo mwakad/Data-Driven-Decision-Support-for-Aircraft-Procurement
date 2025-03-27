@@ -81,14 +81,9 @@ The analysis yields three recommendations on the aircraft models the company sho
 
 ## Repository Structure
 ├── data
-
 ├── images
-
 ├── README.md
-
 ├── index.ipynb
-
 ├── notebook.pdf
-
 └── presentation.pdf
 
