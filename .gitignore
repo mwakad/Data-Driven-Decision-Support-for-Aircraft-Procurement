@@ -6,6 +6,8 @@ data/uss-state-codes.csv
 # ignore tracking changes to the files in the images folder
 images/dashboard.png
 images/dehavilland-dhc-hc-311.png
+images/cessna-a188b.png
+images/cessna-560-xl.png
 images/least-safe-aircraft.png
 images/most-safe-aircraft.png
 images/least-safe-multi-engine-aircraft.png
