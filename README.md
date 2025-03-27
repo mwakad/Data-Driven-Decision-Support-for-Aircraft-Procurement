@@ -39,12 +39,14 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * Grouping an aircraft’s `Make` and `Model` optimizes the readability of plotted visualizations.
 * The aggregate sum of fatalities `Total.Fatal.Injuries` for each `Make` and `Model` are sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 least safe aircraft in terms of respectively attributed summation of fatalities.
 
+![least-safe-aircraft](https://github.com/user-attachments/assets/87d98b5b-8363-4105-a0f7-92bfa965d16b)
 
 
 ## Objective 2
 ### Most Safe Aircraft Models
 * The aggregate sum of survivors `Total.Uninjured` for each `Make` and `Model` is sorted in descending order (ascending = False) and filtered (head = 10) to select the top-10 safest aircraft in terms of cumulative survivors from aircraft accidents and incidents.
 
+![most-safe-aircraft](https://github.com/user-attachments/assets/dacd8d95-5777-49b6-8e78-1cbf013a1ea7)
 
 ## Objective 3
 ### Recommended Aircraft Model to Purchase 
@@ -55,12 +57,12 @@ Operating airplanes for commercial and private enterprises is a potentially prof
 * The `.groupby ()` method is used to group each of the filtered `Purpose.of.flight` aviation service, `Make`, and `Model` to determine the safest aircraft model for each application.
 * The `make` and `Model` with the highest aggregate sum of survivors `Total.Uninjured` for each of the selected `Purpose.of.flight` is selected for visualization.
 
-
+![recommended-aircraft](https://github.com/user-attachments/assets/07b16cf0-5120-40c8-aeb1-fbcb39b1b6e9)
 
 ## Interpretation 
 The analysis yields three recommendations on the aircraft models the company should procure and operate after entering the commercial aviation industry. The baseline and the modified model are explained in the index.ipynb file. The image below captures a screenshot for the dashboard and the attached URL links to the interactive Tableau dashboard with embedded functionality to compare the safest aircract `Make` and `Model` for a particular `Purpose.of.flight` based on the `Number.of.Engines`.
 
-![Dashboard](https://github.com/user-attachments/assets/43faa01b-8339-475f-9615-7f97be83e868)
+![dashboard](https://github.com/user-attachments/assets/adb3a33c-3b01-4bf6-8f3a-db5979d7cdfe)
 
 <html>https://public.tableau.com/app/profile/mwaka.daniel/viz/SafestAircrafts/Data-DrivenDecisionSupportforAircraftProcurement?publish=yes</html>
 
