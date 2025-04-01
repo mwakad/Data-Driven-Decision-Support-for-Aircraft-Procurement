@@ -84,11 +84,13 @@ The analysis yields three recommendations on the aircraft models the company sho
 
 ├── images
 
+├── src
+
 ├── README.md
 
-├── index.ipynb
+├── indexmodularized.ipynb
 
-├── notebook.pdf
+├── notebook-modularized.pdf
 
 └── presentation.pdf
 
