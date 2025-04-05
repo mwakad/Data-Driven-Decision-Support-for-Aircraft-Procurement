@@ -20,16 +20,12 @@ def clean_data(df):
     df = df[df['Weather.Condition'].apply(lambda drop_unknown: (drop_unknown != 'Unk') & (drop_unknown != 'UNK'))]
     # using the str upper and str.strip methods to clean the make column
     df['Make'] = df['Make'].str.upper().str.strip()
-    # creating an Abbreviation column from the Location column
-    # and moving it next to the Location column
     df = df[df['Country'].apply(lambda which_country: which_country == 'United States')]
     df['Abbreviation'] = df['Location'].apply(lambda x: x.split(', ')[-1] if isinstance(x, str) and ', ' in x else None)
     df['Location'] = df['Location'].apply(lambda x: x.split(', ')[0] if isinstance(x, str) and ', ' in x else x)
     abbreviation_col = df.pop('Abbreviation')
     df.insert(df.columns.get_loc('Location') + 1, 'Abbreviation', abbreviation_col)
-    # dropping rows with missing values in the Abbreviation column
     df = df.dropna(subset=['Abbreviation'])
-    # converting data types for object columns to category
     df['Investigation.Type'] = df['Investigation.Type'].astype('category')
     df['Aircraft.damage'] = df['Aircraft.damage'].astype('category')
     df['Number.of.Engines'] = df['Number.of.Engines'].astype(str)
